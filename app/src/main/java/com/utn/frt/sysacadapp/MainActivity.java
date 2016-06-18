@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         this.pass = (EditText) findViewById(R.id.etPass);
         Log.d("Resultados", "Hola Pablo :)");
         Log.d("Resultados", "Aqui probando de nuevo :)");
+        Log.d("Resultados", "Debuggeando...");
     }
 
     @Override
