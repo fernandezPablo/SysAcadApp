@@ -55,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
         this.legajo = (EditText) findViewById(R.id.etLegajo);
         this.pass = (EditText) findViewById(R.id.etPass);
-        Log.d("Resultados","Hola Pablo :)");
+        Log.d("Resultados", "Hola Pablo :)");
+        Log.d("Resultados", "Aqui probando de nuevo :)");
     }
 
     @Override
@@ -136,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
         this.legajo = legajo;
     }
 
-    public void Login(View v){
+    public void Login(View v) {
         Parser parser = new Parser(this);
         parser.execute();
     }
